@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Your custom styles here */
+
+@keyframes gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animate-gradient {
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+/* Custom scrollbar styles */
+.scrollbar-thin::-webkit-scrollbar {
+  width: 6px;
+}
+
+.scrollbar-thumb-blue-500::-webkit-scrollbar-thumb {
+  background-color: #3b82f6;
+  border-radius: 3px;
+}
+
+.scrollbar-track-blue-900::-webkit-scrollbar-track {
+  background-color: #1e3a8a;
+  border-radius: 3px;
+}
