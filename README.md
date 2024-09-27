@@ -41,7 +41,8 @@ To run the application:
 - Next.js
 - React
 - TypeScript
-- [Add any other major technologies or libraries]
+- CrewAI
+- Langflow
 
 ## Contributing
 
